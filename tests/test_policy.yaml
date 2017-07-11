@@ -13,4 +13,8 @@ types:
   - unlabeled_t
   - user_t
   - unconfined_t
+  - etc_t
 
+files:
+  /dev/: system_u:object_r:unlabeled_t
+  /etc/: system_u:object_r:etc_t

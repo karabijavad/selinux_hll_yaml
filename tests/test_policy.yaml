@@ -1,0 +1,16 @@
+users:
+   - system_u
+   - unconfined_u
+   - user_u
+
+roles:
+   - object_r
+   - system_r
+   - unconfined_r
+   - user_r
+
+types:
+  - unlabeled_t
+  - user_t
+  - unconfined_t
+
